@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+      <div class="form-card">
+        <div class="heading">
+          <h1 class="heading__title">Sign Up</h1>
+          <p class="heading__text">It's free and only takes a minute</p>
+        </div>
+        <form action="POST">
+          <label for="">First Name</label>
+          <input type="text" />
+          <label for="">Last Name</label>
+          <input type="text" />
+          <label for="">Email</label>
+          <input type="email" />
+          <label for="">Password</label>
+          <input type="password" />
+          <label for="">Confirm Password</label>
+          <input type="password" />
+          <input type="submit" value="Sign Up" class="btn" />
+        </form>
+        <div class="footer">
+          <div class="footer__text">
+            <p>By Clicking the Sign Up button, you agree to our</p>
+            <a href="#">Terms & conditions and Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="outside-text">
+        <p>Already have an account?</p>
+        <a href="#">Login Here</a>
+      </div>
+    </div>
   </body>
 </html>
